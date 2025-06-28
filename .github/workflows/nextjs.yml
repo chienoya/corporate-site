@@ -79,9 +79,6 @@ jobs:
           steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
-        env:
-          # Set the base path for the Next.js build
-          NEXT_PUBLIC_BASE_PATH: ${{ github.event.repository.html_url }}/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
