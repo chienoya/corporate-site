@@ -15,6 +15,7 @@ Routerプロジェクト構成になっています。
 - **本番ビルド**: `npm run build`
 - **本番サーバー起動**: `npm start`
 - **Lint実行**: `npm run lint`
+- **フォーマット**: `npm run format`
 
 ## 技術スタック
 
@@ -23,6 +24,7 @@ Routerプロジェクト構成になっています。
 - **TypeScript**: v5
 - **スタイリング**: TailwindCSS v4 (@tailwindcss/postcss)
 - **リント**: ESLint v9 (next/core-web-vitals, next/typescript)
+- **フォーマッター**: Prettier
 - **フォント**: Geist、Geist Mono
 
 ## プロジェクト構造
