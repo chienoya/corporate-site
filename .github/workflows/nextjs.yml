@@ -80,7 +80,7 @@ jobs:
       - name: Print Next.js configuration
         run: |
           echo "Next.js configuration:"
-          cat next.config.ts || echo "No next.config.ts found"
+          cat next.config.js || echo "No next.config.js found"
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
