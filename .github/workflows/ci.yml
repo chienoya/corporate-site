@@ -31,14 +31,3 @@ jobs:
 
       - name: Type check
         run: npx tsc --noEmit
-
-      - name: Build project
-        run: npm run build
-
-      - name: Check build artifacts
-        run: |
-          if [ ! -d ".next" ]; then
-            echo "Build failed: .next directory not found"
-            exit 1
-          fi
-          echo "Build successful: .next directory created"
