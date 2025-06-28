@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { Image } from '@/app/components/Image';
 
 export default function Home() {
   return (
