@@ -1,10 +1,13 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this
+repository.
 
 ## コードベース概要
 
-このプロジェクトは、Next.js 15.3.4とReact 19を使用したコーポレートサイトです。TypeScript、TailwindCSS v4、ESLintを採用した標準的なNext.js App Routerプロジェクト構成になっています。
+このプロジェクトは、Next.js 15.3.4とReact
+19を使用したコーポレートサイトです。TypeScript、TailwindCSS v4、ESLintを採用した標準的なNext.js App
+Routerプロジェクト構成になっています。
 
 ## 開発コマンド
 
