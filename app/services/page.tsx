@@ -229,12 +229,6 @@ export default function Services() {
             >
               お問い合わせ
             </Link>
-            <Link
-              href='/case-studies'
-              className='border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-[#5B9FED] transition-colors'
-            >
-              実績・事例を見る
-            </Link>
           </div>
         </div>
       </section>

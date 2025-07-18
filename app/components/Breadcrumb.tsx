@@ -23,7 +23,6 @@ export default function Breadcrumb() {
     const pathMap: { [key: string]: string } = {
       '/about': '会社概要',
       '/services': 'サービス・事業内容',
-      '/case-studies': '実績・事例',
       '/news': 'ニュース・お知らせ',
       '/contact': 'お問い合わせ',
     };

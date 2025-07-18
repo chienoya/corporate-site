@@ -23,12 +23,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: 'https://chienoya.co.jp/case-studies',
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
       url: 'https://chienoya.co.jp/news',
       lastModified: new Date(),
       changeFrequency: 'weekly',

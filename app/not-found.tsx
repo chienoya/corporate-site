@@ -67,14 +67,6 @@ export default function NotFound() {
               <ul className='space-y-2'>
                 <li>
                   <Link
-                    href='/case-studies'
-                    className='text-gray-600 hover:text-[#5B9FED] transition-colors'
-                  >
-                    実績・事例
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href='/news'
                     className='text-gray-600 hover:text-[#5B9FED] transition-colors'
                   >

@@ -5,7 +5,6 @@ export default function Footer() {
     { href: '/', label: 'ホーム' },
     { href: '/about', label: '会社概要' },
     { href: '/services', label: 'サービス' },
-    { href: '/case-studies', label: '実績・事例' },
     { href: '/news', label: 'ニュース' },
     { href: '/contact', label: 'お問い合わせ' },
   ];
