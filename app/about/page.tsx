@@ -143,14 +143,6 @@ export default function About() {
                       神田東山ビル７Ｆ・８Ｆ
                     </p>
                   </div>
-                  <div>
-                    <h4 className='font-semibold text-[#1F2A44] mb-2'>最寄駅</h4>
-                    <p className='text-gray-700'>
-                      JR山手線・京浜東北線「神田駅」より徒歩5分
-                      <br />
-                      東京メトロ銀座線「神田駅」より徒歩3分
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
