@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { Image } from './Image';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +25,13 @@ export default function Header() {
         <div className='flex justify-between items-center py-4'>
           {/* ロゴ */}
           <Link href='/' className='flex items-center'>
-            <div className='text-2xl font-bold text-[#5B9FED]'>株式会社知恵乃屋</div>
+            <Image
+              src='/corporate-logo.png'
+              alt='株式会社知恵乃屋ロゴ'
+              className='mr-3'
+              height={32}
+              width={148}
+            />
           </Link>
 
           {/* デスクトップナビゲーション */}
