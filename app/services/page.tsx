@@ -21,7 +21,16 @@ export default function Services() {
         'データベース設計・構築',
         'クラウドインフラ構築',
       ],
-      technologies: ['React', 'Next.js', 'Node.js', 'Python', 'AWS', 'Docker'],
+      technologies: [
+        'React',
+        'Next.js',
+        'Node.js',
+        'Python',
+        'Ruby',
+        'AWS',
+        'Google Cloud',
+        'Docker',
+      ],
       icon: (
         <svg className='w-8 h-8 text-white' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
           <path
@@ -38,7 +47,6 @@ export default function Services() {
       description: '機械学習、深層学習を活用したAIソリューションの開発・実装を行います。',
       features: [
         '機械学習モデル開発',
-        '深層学習システム構築',
         '自然言語処理（NLP）',
         'コンピュータビジョン',
         'データ分析・可視化',
