@@ -19,7 +19,7 @@ export default function News() {
     },
   ];
 
-  const categories = ['すべて', 'プレスリリース', 'お知らせ', 'イベント'];
+  // const categories = ['すべて', 'プレスリリース', 'お知らせ', 'イベント'];
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
@@ -56,7 +56,7 @@ export default function News() {
       </section>
 
       {/* フィルターセクション */}
-      <section className='py-8 bg-white border-b'>
+      {/* <section className='py-8 bg-white border-b'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex flex-wrap gap-4 justify-center'>
             {categories.map((category) => (
@@ -73,7 +73,7 @@ export default function News() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ニュース一覧セクション */}
       <section className='py-20'>
