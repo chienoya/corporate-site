@@ -18,6 +18,8 @@ export default function News() {
       slug: 'company-website-launch',
     },
   ];
+  const featuredNewsIds = [1]; // 注目記事のIDリスト
+  const featuredNews = news.filter((item) => featuredNewsIds.includes(item.id));
 
   // const categories = ['すべて', 'プレスリリース', 'お知らせ', 'イベント'];
 
@@ -160,7 +162,7 @@ export default function News() {
           </div>
 
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
-            {news.slice(0, 2).map((item) => (
+            {featuredNews.map((item) => (
               <article
                 key={item.id}
                 className='bg-gray-50 rounded-lg overflow-hidden hover:shadow-lg transition-shadow'
