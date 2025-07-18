@@ -24,6 +24,7 @@ export default function Breadcrumb() {
       '/about': '会社概要',
       '/services': 'サービス・事業内容',
       '/news': 'ニュース・お知らせ',
+      '/news/company-website-launch': '会社サイト公開のお知らせ',
       '/contact': 'お問い合わせ',
     };
 

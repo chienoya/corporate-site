@@ -11,69 +11,11 @@ export default function News() {
   const news = [
     {
       id: 1,
-      date: '2025-01-15',
-      category: 'プレスリリース',
-      title: '新サービス「AIコンサルティングプラン」を開始',
-      excerpt:
-        'AI導入を検討される企業様向けに、戦略立案から実装まで一貫してサポートする新サービスを開始いたします。',
-      slug: 'ai-consulting-plan-launch',
-    },
-    {
-      id: 2,
-      date: '2025-01-10',
-      category: 'イベント',
-      title: '技術勉強会「Next.js 15の新機能」を開催予定',
-      excerpt:
-        '2025年2月に開催予定の技術勉強会のお知らせです。Next.js 15の新機能について詳しく解説いたします。',
-      slug: 'nextjs-15-study-session',
-    },
-    {
-      id: 3,
-      date: '2025-01-05',
+      date: '2025-07-18',
       category: 'お知らせ',
-      title: '年末年始休業のお知らせ',
-      excerpt: '2024年12月29日（金）～2025年1月3日（水）まで年末年始休業とさせていただきます。',
-      slug: 'year-end-holiday-notice',
-    },
-    {
-      id: 4,
-      date: '2024-12-20',
-      category: 'プレスリリース',
-      title: '大型ECサイト開発プロジェクトの完了',
-      excerpt: '某大手企業様のECサイト開発プロジェクトが完了し、正式にリリースされました。',
-      slug: 'major-ecommerce-project-completion',
-    },
-    {
-      id: 5,
-      date: '2024-12-15',
-      category: 'お知らせ',
-      title: '新メンバー募集のお知らせ',
-      excerpt: '事業拡大に伴い、フロントエンドエンジニアとAIエンジニアを募集しております。',
-      slug: 'new-member-recruitment',
-    },
-    {
-      id: 6,
-      date: '2024-12-01',
-      category: 'イベント',
-      title: 'AI技術セミナー「ビジネスにおけるAI活用事例」参加報告',
-      excerpt: '東京で開催されたAI技術セミナーに参加し、最新の業界動向について学びました。',
-      slug: 'ai-seminar-participation-report',
-    },
-    {
-      id: 7,
-      date: '2024-11-20',
-      category: 'プレスリリース',
-      title: '画像認識AIシステムの開発完了',
-      excerpt: '製造業向けの品質管理AIシステムの開発が完了し、お客様に納品いたしました。',
-      slug: 'image-recognition-ai-system-completion',
-    },
-    {
-      id: 8,
-      date: '2024-11-10',
-      category: 'お知らせ',
-      title: 'オフィス移転のお知らせ',
-      excerpt: '2024年11月15日より、新オフィスに移転いたします。新住所は神田多町2-1-23です。',
-      slug: 'office-relocation-notice',
+      title: '会社ホームページ公開',
+      excerpt: '株式会社知恵乃屋の公式ホームページを公開いたしました。',
+      slug: 'company-website-launch',
     },
   ];
 
