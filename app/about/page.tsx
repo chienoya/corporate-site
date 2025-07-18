@@ -156,8 +156,16 @@ export default function About() {
             </div>
             <div>
               <h3 className='text-2xl font-semibold text-[#1F2A44] mb-6'>地図</h3>
-              <div className='bg-gray-200 rounded-lg h-64 flex items-center justify-center'>
-                <p className='text-gray-600'>地図を表示（実装予定）</p>
+              <div>
+                <iframe
+                  src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d362.33486368838004!2d139.76921303841033!3d35.693025458242865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c03c74852d1%3A0xcae822f7dc037f42!2z44CSMTAxLTAwNDYg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy656We55Sw5aSa55S677yS5LiB55uu77yR4oiS77yS77yTIOelnueUsOadseWxseODk-ODqw!5e0!3m2!1sja!2sjp!4v1752843572648!5m2!1sja!2sjp'
+                  width='600'
+                  height='450'
+                  style={{ border: 0 }}
+                  allowFullScreen={false}
+                  loading='lazy'
+                  referrerPolicy='no-referrer-when-downgrade'
+                ></iframe>
               </div>
             </div>
           </div>
