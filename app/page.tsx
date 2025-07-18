@@ -7,7 +7,9 @@ export default function Home() {
       <section className='bg-gradient-to-r from-[#5B9FED] to-[#1F2A44] text-white py-20'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='text-center'>
-            <h1 className='text-4xl md:text-6xl font-bold mb-6'>株式会社知恵乃屋</h1>
+            <h1 className='text-4xl md:text-6xl font-bold mb-6 font-[family-name:var(--font-noto-serif-jp)]'>
+              株式会社知恵乃屋
+            </h1>
             <p className='text-xl md:text-2xl mb-8 text-blue-100'>
               ITシステム受託開発で企業の成長を支援
             </p>
