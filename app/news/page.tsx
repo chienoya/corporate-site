@@ -129,7 +129,7 @@ export default function News() {
       </section>
 
       {/* ページネーション */}
-      <section className='py-12 bg-white'>
+      {/* <section className='py-12 bg-white'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
           <div className='flex justify-center items-center space-x-4'>
             <button className='px-4 py-2 border border-gray-300 rounded-md text-gray-500 hover:bg-gray-50 transition-colors'>
@@ -149,7 +149,7 @@ export default function News() {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 注目記事セクション */}
       <section className='py-20 bg-white'>
